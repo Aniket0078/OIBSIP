@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+<style>
+ 
+ body{
+    background-image: linear-gradient(#252B48,#445069,#5B9A8B);
+ }
+
+ .title{
+    color: #7881af;
+ }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.container2{
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #589788;
+    padding: 20px;
+}
+
+.unit{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#reset{
+    padding:5px;
+    border-radius: 7px;
+ transition: 0.5s;
+    
+
+}
+
+#reset:hover{
+    border-radius: 7px;
+    background-color: antiquewhite;
+    
+}
+    
+</style>
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+
+            <h1>Temperature Converter</h1>
+        </div>
+       <div class="container2"> 
+        <div class="celsius">
+            <label class="unit">Celcius</label>
+            <input type="number" id="celsius">
+        </div>
+        <div class="fahrenheit">
+            <label class="unit">Fahrenheit</label>
+            <input type="number" id="fahrenheit">
+        </div>
+        <div class="kelvin">
+            <label class="unit">Kelvin</label>
+            <input type="number" id="kelvin">
+        </div>
+    </div>
+        <div class="button">
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="./temperature.js">
+        
+
+     </script>
+</body>
+</html>
