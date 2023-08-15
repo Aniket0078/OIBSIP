@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <style>
+        
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),url(./wallpaperflare.com_wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+       height: 100vh;
+       
+    
+    }
+
+    
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .logo img{
+    width:80px;
+    mix-blend-mode: color-burn;
+
+}
+
+.navigation a{
+    padding:10px 20px ;
+    color:pink;
+    text-decoration: none;
+    font-size:18px;
+    position:relative;
+
+}
+
+.navigation a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    border-bottom: 2px solid orange;
+    transition:0.5s linear;
+    
+}
+
+.navigation a:hover:before{
+    width:90%;
+
+}
+
+.container2{
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 200px;
+    text-align: center;
+ display: block;
+ width: 400px;
+ height: 400px;
+ color:white;
+font-family: 'Lobster', cursive;;
+font-size: 20px;
+}
+
+.container2 .para{
+    color:gainsboro;
+    
+}
+
+.container2 .button input{
+    border-radius: 5px;
+    background-color:lightsalmon;
+    transition: 0.4s;
+    padding: 7px;
+    margin-top:10px;
+    border:none;
+}
+
+.container2 .button input:hover{
+    background-color: transparent;
+    color:lightsalmon;
+    border: 2px solid black;
+ 
+}
+
+.container2 .glowtext{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+    color:rgb(72, 60, 85);
+transition: 0.25s;
+font-size: 25px;
+
+}
+
+.container2 .glowtext:hover{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px lawngreen, 0 0 82px lightcoral,0 0 92px lightpink ;
+}
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+          <img src="https://www.vhv.rs/dpng/d/543-5439350_download-asus-rog-logo-vector-logo-republic-of.png" alt="logo">
+        </div>
+        <div class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Best offer's</a>
+            <a href="#">Contact</a>
+
+
+        </div>
+     
+        
+    </div>
+    <div class="container2">
+<div class="glowtext">
+        <h1>
+    Let the Game Begin
+</h1>
+</div>
+
+<div class="para">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi alias expedita blanditiis maiores numquam delectus dicta quod harum earum velit repellat, itaque praesentium dolore dignissimos sed quam officiis similique nam.
+</div>
+
+<div class="button">
+    
+        <input type="button" value="Register Here">
+    </div>
+</div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HTML</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+   .text-glow {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+	color: white;
+	font-size: 30px;
+	text-align: center;	  	
+   }
+   .container {
+      background-color: black;
+	  height: 400px;
+	  width: 400px;
+	  padding: 50px;
+   }
+</style>
+</head>
+<body>
+   <div class="container">
+	   <div class="text-glow">
+		 <h2> Text Glow </h2>
+		 <p> We have successfully created a glowing text </p>
+	   </div>
+    </div>
+</body>
+</html> -->
